@@ -39,7 +39,7 @@ const GameBoard: FunctionComponent<GameBoardProps> = ({
     }
   };
 
-  const calculateWinner = (board) => {
+  const calculateWinner = (board: any) => {
     // Define winning combinations
     const winCombinations = [
       [0, 1, 2],
